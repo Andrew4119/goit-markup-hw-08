@@ -7,7 +7,6 @@
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    height: 60px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -22,10 +21,4 @@
   .container {
     width: 1200px;
   }
-}
-body {
-  min-height: 3000px;
-}
-main {
-  max-height: 5793px;
 }

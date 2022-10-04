@@ -73,30 +73,24 @@
   width: 20px;
   height: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .comands {
     padding-top: 60px;
-    height: 2761px;
+    padding-bottom: 60px;
   }
   .comands-list {
     justify-content: center;
   }
   .comands-item {
-    width: 450px;
+    width: 354px;
   }
 }
 @media screen and (min-width: 768px) {
-  .comands {
-    height: 1285px;
-  }
   .comands-list {
     justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  .comands {
-    height: 708px;
-  }
   .comands-list {
     justify-content: center;
   }

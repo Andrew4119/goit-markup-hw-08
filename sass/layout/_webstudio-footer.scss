@@ -51,9 +51,6 @@
   transition: color var(--transition-dur-and-func);
 }
 @media screen and (max-width: 767px) {
-  .webstudio-footer {
-    height: 603px;
-  }
   .foot-container {
     justify-content: center;
     gap: 30px;
@@ -68,9 +65,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .webstudio-footer {
-    height: 463px;
-  }
   .foot-container {
     justify-content: center;
   }
