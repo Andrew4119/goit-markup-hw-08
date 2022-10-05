@@ -1,6 +1,5 @@
 .portfolio-item {
   width: 370px;
-  height: 404px;
 }
 .contant {
   border: 1px solid var(--border-color-portfolio);
@@ -30,6 +29,7 @@
   column-gap: 30px;
   row-gap: 30px;
   padding-top: 50px;
+  padding-bottom: 60px;
 }
 .portfolio-link {
   display: block;
@@ -69,11 +69,6 @@
   transition: transform var(--transition-dur-and-func);
 }
 @media screen and (max-width: 767px) {
-  .button-portfolio-section {
-    height: 3793px;
-  }
-  .portfolio-item {
-  }
 }
 @media screen and (min-width: 768px) {
   .button-portfolio-section {

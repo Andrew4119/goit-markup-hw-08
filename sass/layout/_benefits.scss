@@ -1,6 +1,6 @@
 .benefits {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits-list {
   display: flex;
@@ -16,9 +16,6 @@
   .benefits-item {
     max-width: 450px;
     height: 100%;
-  }
-  .benefits {
-    height: 994px;
   }
 }
 @media screen and (min-width: 768px) {

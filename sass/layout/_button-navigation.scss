@@ -1,9 +1,8 @@
 .main-portfolio-contant {
 }
 .button-portfolio-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  height: 91px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .button-navigation {
   font-family: var(--font-roboto);
@@ -31,11 +30,10 @@
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 8px;
+  row-gap: 15px;
 }
 @media screen and (max-width: 767px) {
   .button-list {
-    width: 326px;
-    height: 91px;
     justify-content: flex-start;
   }
 }
