@@ -81,9 +81,6 @@
   .comands-list {
     justify-content: center;
   }
-  .comands-item {
-    width: 354px;
-  }
 }
 @media screen and (min-width: 768px) {
   .comands-list {
@@ -93,5 +90,12 @@
 @media screen and (min-width: 1200px) {
   .comands-list {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .comands-item {
+    gap: 15px;
+    column-gap: 15px;
+    width: 450px;
   }
 }
