@@ -9,23 +9,25 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .benefits-item {
   min-width: 270px;
 }
+
 @media screen and (max-width: 767px) {
   .benefits-item {
     max-width: 450px;
     height: 100%;
   }
 }
+
 @media screen and (min-width: 768px) {
   .benefits-item {
     width: 354px;
     height: 100%;
   }
 }
-@media screen and (min-width: 1200px) {
-}
+
 .container-icon {
   background-color: var(--background-color-benefit);
   padding-top: 25px;
